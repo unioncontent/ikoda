@@ -579,7 +579,7 @@
     	count(if(textType='기타글', textType, null)) etc,
     	count(if(textType is not null and texttype!='삭제글', textType, null))
 	from 
-		union.portal_data
+		portal_data
 	where 
 		portal_type = 'blog'
  	<include refid="search_writeDate"></include>
@@ -593,7 +593,7 @@
     	count(if(textType='기타글', textType, null)) etc,
     	count(if(textType is not null and texttype!='삭제글', textType, null))
 	from 
-		union.portal_data
+		portal_data
 	where 
 		portal_type = 'cafe'
 	<include refid="search_writeDate"></include>
@@ -608,7 +608,7 @@
     	count(if(textType='기타글', textType, null)) etc,
     	count(if(textType is not null and texttype!='삭제글', textType, null))
 	from 
-		union.portal_data
+		portal_data
 	where 
 		portal_name = 'naver'
 	and 
@@ -623,7 +623,7 @@
     	count(if(textType='기타글', textType, null)) etc,
     	count(if(textType is not null and texttype!='삭제글', textType, null))
 	from 
-		union.portal_data
+		portal_data
 	where 
 		portal_name = 'naver'
 	and 
@@ -638,7 +638,7 @@
     	count(if(textType='기타글', textType, null)) etc,
     	count(if(textType is not null and texttype!='삭제글', textType, null))
 	from 
-		union.portal_data
+		portal_data
 	where 
 		portal_name = 'naver'
 	and 
@@ -653,7 +653,7 @@
     	count(if(textType='기타글', textType, null)) etc,
     	count(if(textType is not null and texttype!='삭제글', textType, null))
 	from 
-		union.portal_data
+		portal_data
 	where 
 		portal_name = 'naver'
 	and 
@@ -670,7 +670,7 @@
     	count(if(textType='기타글', textType, null)) etc,
     	count(if(textType is not null and texttype!='삭제글', textType, null))
 	from 
-		union.portal_data
+		portal_data
 	where 
 		portal_name = 'daum'
 	and 
@@ -685,7 +685,7 @@
     	count(if(textType='기타글', textType, null)) etc,
     	count(if(textType is not null and texttype!='삭제글', textType, null))
 	from 
-		union.portal_data
+		portal_data
 	where 
 		portal_name = 'daum'
 	and 
@@ -700,7 +700,7 @@
     	count(if(textType='기타글', textType, null)) etc,
     	count(if(textType is not null and texttype!='삭제글', textType, null))
 	from 
-		union.portal_data
+		portal_data
 	where 
 		portal_name = 'daum'
 	and 
@@ -715,7 +715,7 @@
     	count(if(textType='기타글', textType, null)) etc,
     	count(if(textType is not null and texttype!='삭제글', textType, null))
 	from 
-		union.portal_data
+		portal_data
 	where 
 		portal_name = 'daum'
 	and 

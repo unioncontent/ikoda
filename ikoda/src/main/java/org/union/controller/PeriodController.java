@@ -202,7 +202,7 @@ public class PeriodController {
 		
 		model.addAttribute("youtubeCount", snsService.youtubeTotalCount(cri));
 		
-		if(selectKey.equals("마약왕")) {
+		/*if(selectKey.equals("마약왕")) {
 			cri.setSelectKey("1");
 		}else if(selectKey.equals("미성년")) {
 			cri.setSelectKey("2");
@@ -224,9 +224,9 @@ public class PeriodController {
 			cri.setSelectKey("0");
 		}
 		
-		logger.info("메일 셀렉키: " + cri.getSelectKey());
+		logger.info("메일 셀렉키: " + cri.getSelectKey());*/
 		
-		model.addAttribute("mailList", mediaService.mailList(cri));
+		/*model.addAttribute("mailList", mediaService.mailList(cri));*/
 	}
 
 	@GetMapping("/community")

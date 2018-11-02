@@ -263,7 +263,7 @@
 		                      </div> -->
 		                      <!-- Morris chart end -->
 		                      <!-- List start -->
-                              <div class="col-md-12">
+                              <%-- <div class="col-md-12">
                                 <div class="card">
                                   <div class="card-header">
                                     <h5>
@@ -313,9 +313,6 @@
                                             <td>
                                             ${mvo.fail}회
                                             </td>
-                                            <%-- <td>
-                                            <a href="javascript:popupOpen('<fmt:formatDate value="${mvo.m_send}" type="DATE" pattern="yyyy-MM-dd" />');" >${mvo.total}건</a>      
-                                            </td> --%>
                                           </tr>
                                         </c:forEach>
                                         </tbody>
@@ -324,7 +321,7 @@
                                       </div>
                                       </div>
                                       </div>
-                                      </div>
+                                      </div> --%>
 		                      <!-- List end -->
                             </div>
                           </div>
