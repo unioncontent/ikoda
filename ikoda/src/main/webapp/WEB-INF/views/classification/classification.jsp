@@ -249,7 +249,7 @@
                               </span>
                             </div>
                             <button class="btn btn-warning alert-excel f-right p-r-5 p-l-5 m-l-15 m-b-5 m-t-5"><i class="icofont icofont-download-alt"></i>EXCEL</button>
-                            <button class="btn btn-info alert-image f-right p-r-5 p-l-5 m-l-15 m-b-5 m-t-5"><i class="icofont icofont-file-image"></i>IMAGE</button>
+                            <!-- <button class="btn btn-info alert-image f-right p-r-5 p-l-5 m-l-15 m-b-5 m-t-5"><i class="icofont icofont-file-image"></i>IMAGE</button> -->
                             <c:if test="${user.user_name == 'union'}">
                             <button type="button" class="btn btn-list  waves-effect  f-right p-r-5 p-l-5 m-l-15 m-b-5 m-t-5" data-toggle="modal" data-target="#frmModal"><i class="ti-pencil-alt"></i>수동입력</button>
                             <button id="insertAllBtn" type="button" class="alert-confirm btn btn-list waves-effect f-right p-r-0 p-l-5 m-l-15 m-b-5 m-t-5  f-right"><i class="icofont icofont-check-circled"></i>일괄처리</button>

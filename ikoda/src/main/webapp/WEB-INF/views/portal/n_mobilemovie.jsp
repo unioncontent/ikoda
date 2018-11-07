@@ -780,7 +780,7 @@
 	        function(){//엑셀 출력하겠다고 할 시 진행 함수
 	    		
 	        	self.location = "excel?"+
-				  + "&company=" + $("#selectCompany option:selected").val()
+				  + "company=" + $("#selectCompany option:selected").val()
 				  + "&selectKey=" + $('#selectKeyword option:selected').val()
 				  + "&startDate=" + decodeURI(window.location.href.split("startDate=")[1]).split("&")[0].split(" ")[0]
 				  + "&endDate=" +  decodeURI(window.location.href.split("endDate=")[1]).split("&")[0].split(" ")[0]

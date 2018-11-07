@@ -26,9 +26,7 @@
 			login-processing-url="/loginAction" 
 			default-target-url="/login/loginSuccess"
 			authentication-failure-url="http://ikoda.cafe24.com/" 
-			always-use-default-target="true"
-			
-			 />
+			always-use-default-target="true"/>
 
 		<!-- <security:session-management>
 			<security:concurrency-control
