@@ -31,9 +31,7 @@
             <div class="sidebar_toggle"><a href="javascript:void(0)"><i class="ti-menu"></i></a></div>
           </li>
         </ul>
-
-
-        <ul class="nav-right">
+        <%-- <ul class="nav-right">
           <li class="user-profile header-notification">
             <a href="#!">
                 <img src="../assets/images/user.png" alt="User-Profile-Image">
@@ -44,15 +42,25 @@
               <li>
                 <form id='logoutForm' action="../logoutAction" method="post">
                 	<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}">
-              	  <%-- <button type = 'submit' id = "logoutBtn">
+              	  <button type = 'submit' id = "logoutBtn">
                   <i class="ti-layout-sidebar-left"></i> Logout
-                  </button> --%>
+                  </button>
                   <a onclick='$("#logoutForm").submit();'>
                     <i class="ti-layout-sidebar-left"></i> Logout
                   </a>
                 </form>
               </li>
             </ul>
+          </li>
+        </ul> --%>
+        <ul class="nav-right">
+          <li class="user-profile header-notification">
+	          <form id='logoutForm' action="../logoutAction" method="post">
+		          <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}">
+		          <a onclick='$("#logoutForm").submit();'>
+		          	<i class="ti-layout-sidebar-left"></i> Logout
+		          </a>
+	          </form>
           </li>
         </ul>
       </div>
